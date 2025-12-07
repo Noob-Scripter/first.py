@@ -9,6 +9,7 @@ def clear_text():
 root = tk.Tk()
 root.title('first gui')
 root.geometry('500x400')
+root.config(bg = "black")
 
 button = tk.Button(root, text='click me', command=say_hi, bg='purple', fg='white')
 button.pack(pady=20)
